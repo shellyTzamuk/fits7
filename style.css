@@ -57,18 +57,19 @@ a:hover {
   text-decoration: none;
 }
 
-/* עיצוב כפתור רמז */
 button {
-    background-color: #4CAF50; /* צבע רקע ירוק */
-    color: white; /* צבע טקסט לבן */
-    padding: 10px 20px; /* רווחים פנימיים */
-    font-size: 16px; /* גודל גופן */
-    border: none; /* מסיר את הקו סביב הכפתור */
-    border-radius: 5px; /* פינות מעוגלות */
-    cursor: pointer; /* מצביע יד בעת ריחוף */
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    font-size: 1.5em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
     margin-top: 20px;
 }
 
 button:hover {
-    background-color: #45a049; /* צבע רקע משתנה כאשר מעבירים את העכבר */
+    background-color: #0056b3;
+    transform: scale(1.1);
 }
